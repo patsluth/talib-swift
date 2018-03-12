@@ -1,0 +1,27 @@
+{
+  "name": "ta-lib-swift",
+  "version": "0.0.1",
+  "summary": "TA-LIB converted to swift",
+  "description": "TA-LIB converted to swift",
+  "homepage": "https://sluthware.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "patsluth": "pat.sluth@gmail.com"
+  },
+  "source": {
+    "git": "https://patsluth@bitbucket.org/patsluth/ta-lib-swift.git",
+    "tag": "0.0.1"
+  },
+  "social_media_url": "https://twitter.com/patsluth",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ta-lib-swift/Classes/**/*",
+  "frameworks": [
+    "Foundation",
+    "CoreFoundation"
+  ]
+}

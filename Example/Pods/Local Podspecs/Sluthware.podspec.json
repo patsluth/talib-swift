@@ -1,0 +1,57 @@
+{
+  "name": "Sluthware",
+  "version": "1.0.24",
+  "summary": "Sluthware shared framework",
+  "description": "Sluthware shared framework description",
+  "homepage": "https://sluthware.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "patsluth": "pat.sluth@gmail.com"
+  },
+  "source": {
+    "git": "https://patsluth@bitbucket.org/patsluth/sluthware.git",
+    "tag": "1.0.24"
+  },
+  "social_media_url": "https://twitter.com/patsluth",
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.9"
+  },
+  "ios": {
+    "source_files": [
+      "Sluthware/Classes/*",
+      "Sluthware/Classes/Foundation/*",
+      "Sluthware/Classes/CoreGraphics/*",
+      "Sluthware/Classes/SceneKit/*",
+      "Sluthware/Classes/CoreLocation/*",
+      "Sluthware/Classes/UIKit/*"
+    ],
+    "frameworks": [
+      "Foundation",
+      "CoreFoundation",
+      "CoreGraphics",
+      "SceneKit",
+      "CoreLocation",
+      "UIKit"
+    ]
+  },
+  "osx": {
+    "source_files": [
+      "Sluthware/Classes/*",
+      "Sluthware/Classes/Foundation/*",
+      "Sluthware/Classes/CoreGraphics/*",
+      "Sluthware/Classes/SceneKit/*",
+      "Sluthware/Classes/CoreLocation/*"
+    ],
+    "frameworks": [
+      "Foundation",
+      "CoreFoundation",
+      "CoreGraphics",
+      "SceneKit",
+      "CoreLocation"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ta-lib-swift (0.0.1)
+
+DEPENDENCIES:
+  - ta-lib-swift (from `../`)
+
+EXTERNAL SOURCES:
+  ta-lib-swift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ta-lib-swift: f2400279799fe2d216ceb6ab8bb4b1c93405d258
+
+PODFILE CHECKSUM: bd03d2769f1e1f3ae85654d6074db7036a2ee397
+
+COCOAPODS: 1.3.1

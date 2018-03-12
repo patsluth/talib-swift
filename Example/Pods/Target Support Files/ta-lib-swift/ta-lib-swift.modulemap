@@ -1,0 +1,6 @@
+framework module ta_lib_swift {
+  umbrella header "ta-lib-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

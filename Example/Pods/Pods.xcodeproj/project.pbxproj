@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050EB4767305FE84A3932E03E87C8B73 /* TA_Rsi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1856DC7BC493FB3DC10D3746DDF7594 /* TA_Rsi.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		054EB772EC8817C6C246F78CCD2B22AF /* TA_AdOsc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B0345EB20ACC47552B34206EE5053 /* TA_AdOsc.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0628D5B673C806CE3D5E8D31D9A9C6A9 /* TA_WillR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905029357BA6DF79EA0FE85D4902460F /* TA_WillR.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		096B298C1B4BF9DC388F234EDA670F9B /* TA_CandleDoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94272BD6D798AD392095391E67E2215F /* TA_CandleDoji.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E726F4E84C7C19C13F0967503193EEA /* ta-lib-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC24ABAE9B1C027BC5BC9B679761E727 /* ta-lib-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B504C15AEADBFBACA18A1B6E3DE385 /* TA_Mom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E422C44F380E6887A4E83A992E105 /* TA_Mom.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		113A4C6AB1EFA6509BADC6F6A9CE7295 /* TA_Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CDFE3AB6790CDBD3FFB9F0CE57ED58 /* TA_Max.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		11604787DA63892CB8365E87772B9582 /* TA_Tan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B9EB3A6F32751341502086A03D344E /* TA_Tan.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		128DF60A0AA6FDFDE5DB0828EC1D918C /* TA_Sar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31E221706494F05F30E51AFB0F9C845 /* TA_Sar.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		12FA5554FB1AA32B722DC71D47BFE93E /* TA_TrueRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071807DD11F12BB14B80FEE1FFC5A869 /* TA_TrueRange.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		13723DA232CBE5E1AD013157A75E4584 /* TA_Correl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986CD1B680E76940D725AEB9D6D8229B /* TA_Correl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		14E92FEDC37D5863AE8A971978263A70 /* TA_Exp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD17F07DB2F8F0C30B4EE94DEB12D6 /* TA_Exp.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		172FD5487C71F815A774770C28E19905 /* TA_Log10.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699C7992383A14FE5FC08ED0C4A81E8 /* TA_Log10.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		186A7D294B8A8A7EC91E48272C8CDD5E /* TA_Macd.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEFE19F2EDF104F381EF057C003ED52 /* TA_Macd.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A556FE1B88E42313CB7A86E4DF1F386 /* TA_Cmo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37078B47B74F6F439A0542D6786E870 /* TA_Cmo.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1B141C30F9FAC26D8619317243EFBB9F /* TA_Ceil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EB0711F25F37D75484755A01D5F9DF /* TA_Ceil.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E4780681F97B7F5BFC47E21CBA4CFFF /* TA_Aroon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6378930747E8A32CE949C129E21B1 /* TA_Aroon.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21988EE951D1B8D42A8CB316FA8E3115 /* TA_RateOfChangePercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011AE5A0151E4AB486E137D01A055BE /* TA_RateOfChangePercentage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		237FA2EDF4C42021D63481C2390ED1A0 /* TA_RateOfChangeRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204DA28A135D45ED6A837A8791268EC /* TA_RateOfChangeRatio.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2709E29721881BF3C69D27B76DFD2C24 /* TA_Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2566F1DDBF3F17A065002E7EDF578B /* TA_Floor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		27E30A4558DE5032CAAE7FD7B76A489A /* TA_StdDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43905B84177DFC4C1AC7A143AA430619 /* TA_StdDev.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2B7B4F3FB527A506F2B2D787443A21EC /* TA_MinusDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C3D36F5AD970D34D19F95C467A85ED /* TA_MinusDM.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2BEE70BF27224FB7A06EBBD1BB5404CE /* TA_PlusDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F16562A777BAEDB8AEF771C1D2560 /* TA_PlusDM.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2D8899DCA202EE32FA1D9FE2DFB023FA /* TA_Sqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510CD878698FD5DCBBDF073BB5E6ED36 /* TA_Sqrt.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2DB8E178A976DA3392F2C6EA03B2D58B /* TA_Div.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB23816EDC9C44AC2C767658087FA0E /* TA_Div.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2EE074B761747825A6067E3F35EE06EA /* TA_Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560EBEC4FA8EB46D07538891E3DBE63 /* TA_Enumerations.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		31FF1987D4A6CDC1AD20F3AAC21505E4 /* TA_Beta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4051B77CBBE64ABB6ED257EE7EFF07A4 /* TA_Beta.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32BB3A41CE5C2E20A5FA034133E238D1 /* TA_Candle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E26D871A1C3765BAA48DD01F46CBA6D /* TA_Candle.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32C3704714BDF39A6E279B3D2B07F33A /* TA_TypicalPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D193ABA6E85572692F30979665A8C3 /* TA_TypicalPrice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32CF04A3FEA928BDF815388CA105DBD1 /* TA_HtSine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79AFE7FAD838F940BC0BC3BE0705B7 /* TA_HtSine.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3623C9A7CCC5D32AB17D923D961637FE /* TA_MaxIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FE205B495CDFF7DCE07284AA62049 /* TA_MaxIndex.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3773C078CF54751F38EFE5887BA65E3A /* TA_StochF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C637638325FB10A57BBF92C42F346B1 /* TA_StochF.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		37D5BD59FEE3B76854E3108E907E87EB /* TA_Dema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD5DE2089D46F765418981A550CC41 /* TA_Dema.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		398138195BC48E37D96C7F5CDD671FEA /* TA_Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D28524F73F8BBD4007CE5C3B566776 /* TA_Core.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3BF36F9580F3E71967F735F087DC2DF9 /* Pods-ta-lib-swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C81BF50A9F769C85356CA9060AB2B5A /* Pods-ta-lib-swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C9214227E9FCF842FA9F3A6468960D2 /* TA_MidPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812DBCC271667822E191CF4AEBEA1FB0 /* TA_MidPoint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		42F23A911C9797E43A499D615EA08BD4 /* TA_Mult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E6682661514728A52CE1206D78802 /* TA_Mult.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		44AFA953ACBCD0C101AE1C6060EA5003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */; };
+		46422D0C946E3FCD91B2DBF618FEC94A /* TA_RateOfChangeRatio100.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB8946464FC73F091AE0487D8C0D28 /* TA_RateOfChangeRatio100.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		48810C45B99723EDC3391D2585E89A59 /* Pods-ta-lib-swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E880302580425729A81814D0989D1CE /* Pods-ta-lib-swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B574725912731B443E9C4F0038FD508 /* TA_Stoch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A3A379A11AFAA2214B8EC31FAA0CF2 /* TA_Stoch.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4D1E2F80177AAE971D179331E72CFDC8 /* TA_Tanh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53A0B16AE6D49DDD64D45EEDA30CBEA /* TA_Tanh.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4ED089DEDDE59828F8A6BBF46DBE0691 /* TA_Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A386134205D53BEB79E41D7470FD40 /* TA_Ad.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4FB73D79D8FFEBD305136B2DBEC908C7 /* TA_Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A52C4F7C16AA8EA3E2FEF86D08E841 /* TA_Add.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		502A024FDDE90B190F776B3748B449B9 /* TA_HtDcPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9AED4CDDE49893A0EC0C53980F4BE /* TA_HtDcPeriod.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		54659B4F10C834CA3EEF30C3E4D59271 /* TA_Bop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F42C85F3E4BF042C21A8598FF6D495D /* TA_Bop.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		568A69F793461403921BA13DC8B8B6E3 /* TA_Sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C79E06CCBB63B3807558F33B50C1C7 /* TA_Sub.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5886CD0770BA78D1FB9ACDF2A8D928FA /* TA_LinearRegSlope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812755F8A0D25DA55EDB8ABA3AFA0303 /* TA_LinearRegSlope.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58DDA5D8CE96079C23BDB2AEBD5D9D6A /* TA_UltimateOsc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3323FA909F2CFC827DB4ECC9B230B /* TA_UltimateOsc.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D17099ABE7323B37BED0648D7583843 /* TA_Mama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961E5951A497BFD46803461642F1FD5 /* TA_Mama.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		63EABEBEB90439E492CEC3D3744A50AC /* TA_Kama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A686DCAD984EB3DA957FF03D28106AA /* TA_Kama.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		645F94848667A51ED88A9C74F188B599 /* TA_AvgPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B928C4234F2389900C9FAB9573282CF7 /* TA_AvgPrice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		690809D73AD8C25EA265F2EFD0C2F300 /* TA_PlusDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04D09F431CA2979225D056CB428E90 /* TA_PlusDI.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6DB5591B2922755C030A71AA64C17BAB /* TA_Cci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A80BC5CC674A1D187F7966257A1B14 /* TA_Cci.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7002A7028F8ACF437F771B70E0D518DD /* TA_LinearReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3B2B9DB0F32A8FB22EFB4523B1492 /* TA_LinearReg.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		73361F0B4A5ACEC88A1EB61484559B6F /* TA_Adxr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C744CDB946DE3AC49ADF350A15E8A4A /* TA_Adxr.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7E075E75FF289858608027F23F4B200F /* TA_MinMaxIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B006E111971840AEED83E4F922A7C9 /* TA_MinMaxIndex.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7E24BCEBEF9B1A7C31D79378597056CD /* TA_MedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD28AADC17C30D5E036807E38EA9AC /* TA_MedPrice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7E2EB65911A7BA2B9C7C5346234EAFA2 /* TA_Ppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD32E5FC7D585C5622DB169B7F0B03E /* TA_Ppo.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7F16528279C4AF268DE90963241B84CB /* TA_Asin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBADDBAD49DEDC945CECC1310CC5F86 /* TA_Asin.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8181E4E3FF1A3A2B84D5A3065FE29693 /* TA_Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E89DB9E57A44765F67831959A4BE1B7 /* TA_Tema.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		81ECA16893AFC2AD416BB9B0138187B8 /* TA_HtPhasor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A8B71067E8619F62C081FCA666C4E /* TA_HtPhasor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		833B882FA33E1E62B1DEFDB0B8868FEB /* TA_Wma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F26AC8297399BB3C7FB26EE7B73346C /* TA_Wma.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		845D226B7E29E197DE500D494DAA7426 /* TA_Obv.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8650BF7EAF3876035004193B741056 /* TA_Obv.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		84B75B2C8F56F73D6494F01530DA9218 /* TA_MinusDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25F788B5B4E59F6C3FE6A271C20D82 /* TA_MinusDI.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8A681F34CF6FEE3364DF11745E65E332 /* TA_DX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3DE820417F0BE7F30D325DCF5D139A /* TA_DX.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		91C195594F6CC626DC351B2F344737AF /* TA_Sin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D8F6560DBF5FEBA984E677DA75262 /* TA_Sin.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		92F31763F7DD2EC7E485B1F8CF827047 /* TA_MovingAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B63EFE1DAC866DA338B4FAF68917C8E /* TA_MovingAverage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		977A1D76FF0492639CF6AFA98E0789BE /* TA_RateOfChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DFE220F4BD45F8E2744C05F678C1BD /* TA_RateOfChange.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		98EB072014C5B105105AC1D77D71A8B1 /* TA_Tsf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D192FA0220AF55525461785D85A97463 /* TA_Tsf.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9A27BBDFDB1C3A0FC03D64420ABA27CE /* TA_MidPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D8521D5ED5E4BB05A9AEBDE61F733 /* TA_MidPrice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9DAC613C324785D178BCD98B85383D3A /* TA_Atr.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC312D6E95F10F31074B516732B78EC /* TA_Atr.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E15CA38C2CDB79A0E26C62D429BE6C6 /* TA_MinIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3A4B3B755A2D3E6037674FBEF6F92 /* TA_MinIndex.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9EC98663CAFC06E0E8FD3CF58F5260BA /* TA_HtDcPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78517567B7ACEEAD7F8D28CA7A4B978A /* TA_HtDcPhase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9FFBF0E869495CA70C450D096F50FE0B /* TA_Variance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B42ED368D960DE935B6B6EA4102E5 /* TA_Variance.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A113FE2D937BBE12F8D19B15EDFA514D /* TA_AroonnOsc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F456DB9980D7CA09193CD034D095A8B7 /* TA_AroonnOsc.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A14E76CD1F871B56545013C7F49F2E5E /* Pods-ta-lib-swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5C254579534B6A1256F6E1121A16FE /* Pods-ta-lib-swift_Tests-dummy.m */; };
+		A44A71F3B87D93AA79CED91C870F7773 /* TA_StochRsi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF06D10800ED9B5734FBEA4E7B7332 /* TA_StochRsi.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A4B2D52E99851449006A98DB28A2F727 /* TA_MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F628D983FA6443C3B25CC5498FD15DF /* TA_MinMax.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A5D267AF02CF63B1EC553893C0991432 /* TA_Apo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE61C82D1B538DDCFEF3286557B2DA /* TA_Apo.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A794C2FEDE086AE3C4A0A06CB1174D59 /* TA_Natr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A12BF1402DBE0DFAF1785F76C117 /* TA_Natr.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF419AD7F49D91B53D438B51231E7DA8 /* TA_Adx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D7EAA9A78C8260E495BD87CE97699E /* TA_Adx.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B042CBEA6E2626AC4567978DAEE1A243 /* TA_T3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB673086059AC534D8F2E4DF6C4D4DE /* TA_T3.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0C01206D42A6F078AFB9AC40760A4D0 /* TA_Atan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4177E50834237CC4116FCE2F0FBD50 /* TA_Atan.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B4A66EFF09F91D6A6B21B459CAFE75BE /* Pods-ta-lib-swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 481C9592D1BFED34981ABD82DBED76D3 /* Pods-ta-lib-swift_Example-dummy.m */; };
+		B4C4CC53D386D81DFA51D623124A01A7 /* TA_LinearRegAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F576D3841E2092843741A8AD03491437 /* TA_LinearRegAngle.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B5413E999B663FCB6F40726E059FD5E1 /* TA_ArrayUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66274AF911995C0264DB993342D54ACB /* TA_ArrayUtils.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B7FD6AB26729FFA9757123FE23F87A7E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF5470A02991650B65ACC8AAE40C677 /* CoreFoundation.framework */; };
+		B88146C3F25CE642C68A9AD05502E481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */; };
+		BD1BF2B30D9E1F5F6988E1E05DFA3C3A /* TA_Acos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238908D09C6E1A8CD89009A122E0747D /* TA_Acos.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C089460C26F7A3CAB3AAA2B415DE1B75 /* TA_Cosh.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1C7CDBA28B453F77B3F22C9CE59AE /* TA_Cosh.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C2DBB72BFFA334C0E3789841CA469431 /* TA_Ema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5BA0C0CE2426424F0C17FF4BF4E95D /* TA_Ema.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C4569CD5A74E2BB81E17915C0DA832A4 /* TA_WeightedClosePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D360022C81510D5A6A7EB0B12CD0C /* TA_WeightedClosePrice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C506E81F1341A1311D3B7C2CD5A99747 /* TA_HtTrendline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EDF53A5272450690166C35AA8F234F /* TA_HtTrendline.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C6D3C37063EEF237E1790651A85CC299 /* TA_Sma.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0380C9DDBF8064812A653412B89D1 /* TA_Sma.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C72F2B77642CA56E93F2A66B30EC308F /* TA_MovingAverageVariablePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78927D9B23374AD572C3D600C877E8B2 /* TA_MovingAverageVariablePeriod.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1BF41018DF78BBC25B5C791F05529CD /* TA_MoneyFlowIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7E26727E96231DAD340AD711AF88E /* TA_MoneyFlowIndex.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D3061A8A554CCC80C2F49D8026B0DD78 /* TA_LinearRegIntercept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14633541B5522D5FD40353EE7C4EF18A /* TA_LinearRegIntercept.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D3C6FE3632B9B504F0694956D5D33CD0 /* TA_HtTrendMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3D64BFAE9FBB2229BBC48806C5AE48 /* TA_HtTrendMode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DC3840D8873F23F116A1A277B58E4273 /* TA_SarExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493040F6BA0E507D258A876AAEECC80 /* TA_SarExt.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E0D202646913A969878BFA4DE27CF81E /* TA_BBands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CDA257E4BB4B504044F7DC9D161D2 /* TA_BBands.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E0E39C6185A4BE93388AA0CF9D1EB191 /* TA_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17C1B45C87FA857C94EC88575A0F9B /* TA_Test.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E347225FC8373C0AD7005511D3146736 /* TA_MacdFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AF2D3DEA6B0D23FFF8430D40CF1AF /* TA_MacdFix.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E46B28651476DE60C7DC46EDD041A037 /* TA_Sinh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057E0D69D677DC712642A6325DB7A2B /* TA_Sinh.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EA4A214E4F430A1FE13DEFCD77C3A6CF /* TA_Ln.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03414250798A0E700C2868D611611733 /* TA_Ln.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EA950E314BA4B2798B6481F67A65DB43 /* TA_Trima.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3048A5C854430D2493AF577993D0EA9 /* TA_Trima.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EAF5D4852EB13518A97587A089BA5AF7 /* TA_MacdExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35A1E26869239380172F4E617E283A /* TA_MacdExt.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EFB8B5B1F813F50F4A948C07ACA655C3 /* ta-lib-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57974A05C1B271C58E266853328FB939 /* ta-lib-swift-dummy.m */; };
+		F26379BC9A2475D2993CB30CA3CAF9F3 /* TA_Cos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D77AA444A7B9E6A0E4B5678125C5C /* TA_Cos.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FA1BD113EDB4EB30C626EDDDD0ADDED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */; };
+		FE97FE15E4300F9F6AE5A363B117547B /* TA_Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6577241B0E86C83E77B25E57549B01 /* TA_Min.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F24384A2BE006FEEDBF2D1135DBE93AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB12DA728EBBBE4FA50E606BF93FD03;
+			remoteInfo = "ta-lib-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03414250798A0E700C2868D611611733 /* TA_Ln.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Ln.swift; sourceTree = "<group>"; };
+		071807DD11F12BB14B80FEE1FFC5A869 /* TA_TrueRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_TrueRange.swift; sourceTree = "<group>"; };
+		076FE205B495CDFF7DCE07284AA62049 /* TA_MaxIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MaxIndex.swift; sourceTree = "<group>"; };
+		08C79E06CCBB63B3807558F33B50C1C7 /* TA_Sub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Sub.swift; sourceTree = "<group>"; };
+		09EB0711F25F37D75484755A01D5F9DF /* TA_Ceil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Ceil.swift; sourceTree = "<group>"; };
+		0B4177E50834237CC4116FCE2F0FBD50 /* TA_Atan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Atan.swift; sourceTree = "<group>"; };
+		0C04BF88ED6817B20423C326568A7847 /* Pods-ta-lib-swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ta-lib-swift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0D3D64BFAE9FBB2229BBC48806C5AE48 /* TA_HtTrendMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_HtTrendMode.swift; sourceTree = "<group>"; };
+		14633541B5522D5FD40353EE7C4EF18A /* TA_LinearRegIntercept.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_LinearRegIntercept.swift; sourceTree = "<group>"; };
+		17A80BC5CC674A1D187F7966257A1B14 /* TA_Cci.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Cci.swift; sourceTree = "<group>"; };
+		1961E5951A497BFD46803461642F1FD5 /* TA_Mama.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Mama.swift; sourceTree = "<group>"; };
+		1DF73A96D96B846D43CC58B2163C9317 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E518774E64EB67B5C6AD5AD76C63DAC /* ta-lib-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ta-lib-swift.xcconfig"; sourceTree = "<group>"; };
+		2057E0D69D677DC712642A6325DB7A2B /* TA_Sinh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Sinh.swift; sourceTree = "<group>"; };
+		238908D09C6E1A8CD89009A122E0747D /* TA_Acos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Acos.swift; sourceTree = "<group>"; };
+		255B0345EB20ACC47552B34206EE5053 /* TA_AdOsc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_AdOsc.swift; sourceTree = "<group>"; };
+		27CDFE3AB6790CDBD3FFB9F0CE57ED58 /* TA_Max.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Max.swift; sourceTree = "<group>"; };
+		2A686DCAD984EB3DA957FF03D28106AA /* TA_Kama.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Kama.swift; sourceTree = "<group>"; };
+		2AC7E26727E96231DAD340AD711AF88E /* TA_MoneyFlowIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MoneyFlowIndex.swift; sourceTree = "<group>"; };
+		2B63EFE1DAC866DA338B4FAF68917C8E /* TA_MovingAverage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MovingAverage.swift; sourceTree = "<group>"; };
+		2D3D8521D5ED5E4BB05A9AEBDE61F733 /* TA_MidPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MidPrice.swift; sourceTree = "<group>"; };
+		3011AE5A0151E4AB486E137D01A055BE /* TA_RateOfChangePercentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_RateOfChangePercentage.swift; sourceTree = "<group>"; };
+		3016E220AE687920A23EA1D96F744879 /* Pods-ta-lib-swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ta-lib-swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		31EE7E26AE2863D2C37E77D8D182F15B /* Pods_ta_lib_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ta_lib_swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C37BD097516A580ECCE2D0E9226754 /* ta-lib-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ta-lib-swift-prefix.pch"; sourceTree = "<group>"; };
+		3A3AF2D3DEA6B0D23FFF8430D40CF1AF /* TA_MacdFix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MacdFix.swift; sourceTree = "<group>"; };
+		3C81BF50A9F769C85356CA9060AB2B5A /* Pods-ta-lib-swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ta-lib-swift_Example-umbrella.h"; sourceTree = "<group>"; };
+		3D35A1E26869239380172F4E617E283A /* TA_MacdExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MacdExt.swift; sourceTree = "<group>"; };
+		3DBADDBAD49DEDC945CECC1310CC5F86 /* TA_Asin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Asin.swift; sourceTree = "<group>"; };
+		3E8BE810D712A47BEB0186B76D50299D /* Pods-ta-lib-swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ta-lib-swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4051B77CBBE64ABB6ED257EE7EFF07A4 /* TA_Beta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Beta.swift; sourceTree = "<group>"; };
+		40D28524F73F8BBD4007CE5C3B566776 /* TA_Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TA_Core.swift; path = "ta-lib-swift/Classes/TA_Core.swift"; sourceTree = "<group>"; };
+		4204DA28A135D45ED6A837A8791268EC /* TA_RateOfChangeRatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_RateOfChangeRatio.swift; sourceTree = "<group>"; };
+		43905B84177DFC4C1AC7A143AA430619 /* TA_StdDev.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_StdDev.swift; sourceTree = "<group>"; };
+		43DFE220F4BD45F8E2744C05F678C1BD /* TA_RateOfChange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_RateOfChange.swift; sourceTree = "<group>"; };
+		443922D69BA1703803318D4F2FA8486A /* Pods-ta-lib-swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ta-lib-swift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4493040F6BA0E507D258A876AAEECC80 /* TA_SarExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_SarExt.swift; sourceTree = "<group>"; };
+		45F5EDA33F285B947F9BF68F5571C246 /* Pods-ta-lib-swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ta-lib-swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		481C9592D1BFED34981ABD82DBED76D3 /* Pods-ta-lib-swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ta-lib-swift_Example-dummy.m"; sourceTree = "<group>"; };
+		4ABD28AADC17C30D5E036807E38EA9AC /* TA_MedPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MedPrice.swift; sourceTree = "<group>"; };
+		4DD32E5FC7D585C5622DB169B7F0B03E /* TA_Ppo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Ppo.swift; sourceTree = "<group>"; };
+		4E26D871A1C3765BAA48DD01F46CBA6D /* TA_Candle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TA_Candle.swift; path = "ta-lib-swift/Classes/TA_Candle.swift"; sourceTree = "<group>"; };
+		510CD878698FD5DCBBDF073BB5E6ED36 /* TA_Sqrt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Sqrt.swift; sourceTree = "<group>"; };
+		52A386134205D53BEB79E41D7470FD40 /* TA_Ad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Ad.swift; sourceTree = "<group>"; };
+		55F8AB608A4AB3421B62D01C5D24633E /* Pods-ta-lib-swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ta-lib-swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57974A05C1B271C58E266853328FB939 /* ta-lib-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ta-lib-swift-dummy.m"; sourceTree = "<group>"; };
+		579A46FCF4A337A6EBBB96150FD2FE10 /* ta_lib_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ta_lib_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCE61C82D1B538DDCFEF3286557B2DA /* TA_Apo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Apo.swift; sourceTree = "<group>"; };
+		5C2566F1DDBF3F17A065002E7EDF578B /* TA_Floor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Floor.swift; sourceTree = "<group>"; };
+		5C637638325FB10A57BBF92C42F346B1 /* TA_StochF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_StochF.swift; sourceTree = "<group>"; };
+		62D7EAA9A78C8260E495BD87CE97699E /* TA_Adx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Adx.swift; sourceTree = "<group>"; };
+		66274AF911995C0264DB993342D54ACB /* TA_ArrayUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TA_ArrayUtils.swift; path = "ta-lib-swift/Classes/TA_ArrayUtils.swift"; sourceTree = "<group>"; };
+		6A4CDA257E4BB4B504044F7DC9D161D2 /* TA_BBands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_BBands.swift; sourceTree = "<group>"; };
+		6B8F16562A777BAEDB8AEF771C1D2560 /* TA_PlusDM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_PlusDM.swift; sourceTree = "<group>"; };
+		6E880302580425729A81814D0989D1CE /* Pods-ta-lib-swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ta-lib-swift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6E89DB9E57A44765F67831959A4BE1B7 /* TA_Tema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Tema.swift; sourceTree = "<group>"; };
+		6F42C85F3E4BF042C21A8598FF6D495D /* TA_Bop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Bop.swift; sourceTree = "<group>"; };
+		72B0C6C9FFA8ECF1942CBE775332E1AD /* Pods-ta-lib-swift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ta-lib-swift_Example-resources.sh"; sourceTree = "<group>"; };
+		730D8F6560DBF5FEBA984E677DA75262 /* TA_Sin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Sin.swift; sourceTree = "<group>"; };
+		78517567B7ACEEAD7F8D28CA7A4B978A /* TA_HtDcPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_HtDcPhase.swift; sourceTree = "<group>"; };
+		78927D9B23374AD572C3D600C877E8B2 /* TA_MovingAverageVariablePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MovingAverageVariablePeriod.swift; sourceTree = "<group>"; };
+		79BD17F07DB2F8F0C30B4EE94DEB12D6 /* TA_Exp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Exp.swift; sourceTree = "<group>"; };
+		79EDF53A5272450690166C35AA8F234F /* TA_HtTrendline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_HtTrendline.swift; sourceTree = "<group>"; };
+		7C744CDB946DE3AC49ADF350A15E8A4A /* TA_Adxr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Adxr.swift; sourceTree = "<group>"; };
+		7D9D77AA444A7B9E6A0E4B5678125C5C /* TA_Cos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Cos.swift; sourceTree = "<group>"; };
+		7EBD5DE2089D46F765418981A550CC41 /* TA_Dema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Dema.swift; sourceTree = "<group>"; };
+		812755F8A0D25DA55EDB8ABA3AFA0303 /* TA_LinearRegSlope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_LinearRegSlope.swift; sourceTree = "<group>"; };
+		812DBCC271667822E191CF4AEBEA1FB0 /* TA_MidPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MidPoint.swift; sourceTree = "<group>"; };
+		85B9EB3A6F32751341502086A03D344E /* TA_Tan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Tan.swift; sourceTree = "<group>"; };
+		869A8B71067E8619F62C081FCA666C4E /* TA_HtPhasor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_HtPhasor.swift; sourceTree = "<group>"; };
+		8A7D360022C81510D5A6A7EB0B12CD0C /* TA_WeightedClosePrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_WeightedClosePrice.swift; sourceTree = "<group>"; };
+		8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8BD6378930747E8A32CE949C129E21B1 /* TA_Aroon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Aroon.swift; sourceTree = "<group>"; };
+		8C5BA0C0CE2426424F0C17FF4BF4E95D /* TA_Ema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Ema.swift; sourceTree = "<group>"; };
+		8D406B103F9BE45A9F9201A7DEC02335 /* Pods-ta-lib-swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ta-lib-swift_Example.modulemap"; sourceTree = "<group>"; };
+		8EF5470A02991650B65ACC8AAE40C677 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		8F26AC8297399BB3C7FB26EE7B73346C /* TA_Wma.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Wma.swift; sourceTree = "<group>"; };
+		8F628D983FA6443C3B25CC5498FD15DF /* TA_MinMax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MinMax.swift; sourceTree = "<group>"; };
+		8FB673086059AC534D8F2E4DF6C4D4DE /* TA_T3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_T3.swift; sourceTree = "<group>"; };
+		905029357BA6DF79EA0FE85D4902460F /* TA_WillR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_WillR.swift; sourceTree = "<group>"; };
+		90C4181F3D07426F2D44F45B59CA735C /* ta-lib-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "ta-lib-swift.modulemap"; sourceTree = "<group>"; };
+		90FF06D10800ED9B5734FBEA4E7B7332 /* TA_StochRsi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_StochRsi.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94272BD6D798AD392095391E67E2215F /* TA_CandleDoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_CandleDoji.swift; sourceTree = "<group>"; };
+		97B006E111971840AEED83E4F922A7C9 /* TA_MinMaxIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MinMaxIndex.swift; sourceTree = "<group>"; };
+		986CD1B680E76940D725AEB9D6D8229B /* TA_Correl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Correl.swift; sourceTree = "<group>"; };
+		9A82496731FB68A0E7AB0B68037399E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6577241B0E86C83E77B25E57549B01 /* TA_Min.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Min.swift; sourceTree = "<group>"; };
+		9E70B94E15447BA5D9D1E3A6F1EE7556 /* Pods_ta_lib_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ta_lib_swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BA7899004BD658EDEF13EFDFB91C1D /* Pods-ta-lib-swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ta-lib-swift_Tests.modulemap"; sourceTree = "<group>"; };
+		AC3B42ED368D960DE935B6B6EA4102E5 /* TA_Variance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Variance.swift; sourceTree = "<group>"; };
+		AD25F788B5B4E59F6C3FE6A271C20D82 /* TA_MinusDI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MinusDI.swift; sourceTree = "<group>"; };
+		AE04D09F431CA2979225D056CB428E90 /* TA_PlusDI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_PlusDI.swift; sourceTree = "<group>"; };
+		B2E0380C9DDBF8064812A653412B89D1 /* TA_Sma.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Sma.swift; sourceTree = "<group>"; };
+		B37078B47B74F6F439A0542D6786E870 /* TA_Cmo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Cmo.swift; sourceTree = "<group>"; };
+		B5D193ABA6E85572692F30979665A8C3 /* TA_TypicalPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_TypicalPrice.swift; sourceTree = "<group>"; };
+		B928C4234F2389900C9FAB9573282CF7 /* TA_AvgPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_AvgPrice.swift; sourceTree = "<group>"; };
+		BC24ABAE9B1C027BC5BC9B679761E727 /* ta-lib-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ta-lib-swift-umbrella.h"; sourceTree = "<group>"; };
+		BCC312D6E95F10F31074B516732B78EC /* TA_Atr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Atr.swift; sourceTree = "<group>"; };
+		C3048A5C854430D2493AF577993D0EA9 /* TA_Trima.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Trima.swift; sourceTree = "<group>"; };
+		C560EBEC4FA8EB46D07538891E3DBE63 /* TA_Enumerations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TA_Enumerations.swift; path = "ta-lib-swift/Classes/TA_Enumerations.swift"; sourceTree = "<group>"; };
+		C66E6682661514728A52CE1206D78802 /* TA_Mult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Mult.swift; sourceTree = "<group>"; };
+		C699C7992383A14FE5FC08ED0C4A81E8 /* TA_Log10.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Log10.swift; sourceTree = "<group>"; };
+		C8C3D36F5AD970D34D19F95C467A85ED /* TA_MinusDM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MinusDM.swift; sourceTree = "<group>"; };
+		C9B3A4B3B755A2D3E6037674FBEF6F92 /* TA_MinIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_MinIndex.swift; sourceTree = "<group>"; };
+		CC5C254579534B6A1256F6E1121A16FE /* Pods-ta-lib-swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ta-lib-swift_Tests-dummy.m"; sourceTree = "<group>"; };
+		CC657BDB3195467FC885FA2C31908B14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB4755AB76945B23F4BEBC70FCF7585 /* Pods-ta-lib-swift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ta-lib-swift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CDE6A12BF1402DBE0DFAF1785F76C117 /* TA_Natr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Natr.swift; sourceTree = "<group>"; };
+		CEF3323FA909F2CFC827DB4ECC9B230B /* TA_UltimateOsc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_UltimateOsc.swift; sourceTree = "<group>"; };
+		D192FA0220AF55525461785D85A97463 /* TA_Tsf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Tsf.swift; sourceTree = "<group>"; };
+		D31E221706494F05F30E51AFB0F9C845 /* TA_Sar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Sar.swift; sourceTree = "<group>"; };
+		D3CB8946464FC73F091AE0487D8C0D28 /* TA_RateOfChangeRatio100.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_RateOfChangeRatio100.swift; sourceTree = "<group>"; };
+		D6A52C4F7C16AA8EA3E2FEF86D08E841 /* TA_Add.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Add.swift; sourceTree = "<group>"; };
+		DAEFE19F2EDF104F381EF057C003ED52 /* TA_Macd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Macd.swift; sourceTree = "<group>"; };
+		DCB23816EDC9C44AC2C767658087FA0E /* TA_Div.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Div.swift; sourceTree = "<group>"; };
+		E330D96891B1F9E1C2F20C2C756F89D5 /* Pods-ta-lib-swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ta-lib-swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E53A0B16AE6D49DDD64D45EEDA30CBEA /* TA_Tanh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Tanh.swift; sourceTree = "<group>"; };
+		E77E422C44F380E6887A4E83A992E105 /* TA_Mom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Mom.swift; sourceTree = "<group>"; };
+		E9C9AED4CDDE49893A0EC0C53980F4BE /* TA_HtDcPeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_HtDcPeriod.swift; sourceTree = "<group>"; };
+		EB3DE820417F0BE7F30D325DCF5D139A /* TA_DX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_DX.swift; sourceTree = "<group>"; };
+		EBD3B2B9DB0F32A8FB22EFB4523B1492 /* TA_LinearReg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_LinearReg.swift; sourceTree = "<group>"; };
+		EC4F4540FED303ABE908CDB418013A13 /* Pods-ta-lib-swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ta-lib-swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED8650BF7EAF3876035004193B741056 /* TA_Obv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Obv.swift; sourceTree = "<group>"; };
+		F1856DC7BC493FB3DC10D3746DDF7594 /* TA_Rsi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Rsi.swift; sourceTree = "<group>"; };
+		F456DB9980D7CA09193CD034D095A8B7 /* TA_AroonnOsc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_AroonnOsc.swift; sourceTree = "<group>"; };
+		F576D3841E2092843741A8AD03491437 /* TA_LinearRegAngle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_LinearRegAngle.swift; sourceTree = "<group>"; };
+		F8351B540FBD0D079442558275076C11 /* Pods-ta-lib-swift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ta-lib-swift_Tests-resources.sh"; sourceTree = "<group>"; };
+		F8A3A379A11AFAA2214B8EC31FAA0CF2 /* TA_Stoch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Stoch.swift; sourceTree = "<group>"; };
+		FA79AFE7FAD838F940BC0BC3BE0705B7 /* TA_HtSine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_HtSine.swift; sourceTree = "<group>"; };
+		FCE7B691F40D15AC8243917521A14911 /* Pods-ta-lib-swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ta-lib-swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDC1C7CDBA28B453F77B3F22C9CE59AE /* TA_Cosh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TA_Cosh.swift; sourceTree = "<group>"; };
+		FF17C1B45C87FA857C94EC88575A0F9B /* TA_Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TA_Test.swift; path = "ta-lib-swift/Classes/TA_Test.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5933747235838BA833CDB00E2E1D414B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FD6AB26729FFA9757123FE23F87A7E /* CoreFoundation.framework in Frameworks */,
+				B88146C3F25CE642C68A9AD05502E481 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87F756A6E1A14071F5DE279D1DD4987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1BD113EDB4EB30C626EDDDD0ADDED6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4F8654F78E2F681703C2EDC0955A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AFA953ACBCD0C101AE1C6060EA5003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB10B7A1CD54BD25F40C988BD5C33CB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8EF5470A02991650B65ACC8AAE40C677 /* CoreFoundation.framework */,
+				8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		118187D0CE280DF6558AE059E0466048 /* TA_Func_TODO */ = {
+			isa = PBXGroup;
+			children = (
+				4051B77CBBE64ABB6ED257EE7EFF07A4 /* TA_Beta.swift */,
+				94272BD6D798AD392095391E67E2215F /* TA_CandleDoji.swift */,
+				3D35A1E26869239380172F4E617E283A /* TA_MacdExt.swift */,
+				78927D9B23374AD572C3D600C877E8B2 /* TA_MovingAverageVariablePeriod.swift */,
+			);
+			name = TA_Func_TODO;
+			path = "ta-lib-swift/Classes/TA_Func_TODO";
+			sourceTree = "<group>";
+		};
+		1451E52651C3FEAB26B650AFE0AFFBF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A82496731FB68A0E7AB0B68037399E8 /* Info.plist */,
+				90C4181F3D07426F2D44F45B59CA735C /* ta-lib-swift.modulemap */,
+				1E518774E64EB67B5C6AD5AD76C63DAC /* ta-lib-swift.xcconfig */,
+				57974A05C1B271C58E266853328FB939 /* ta-lib-swift-dummy.m */,
+				33C37BD097516A580ECCE2D0E9226754 /* ta-lib-swift-prefix.pch */,
+				BC24ABAE9B1C027BC5BC9B679761E727 /* ta-lib-swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ta-lib-swift";
+			sourceTree = "<group>";
+		};
+		36A43CC5EB49438A6A31A6C49A122ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31EE7E26AE2863D2C37E77D8D182F15B /* Pods_ta_lib_swift_Example.framework */,
+				9E70B94E15447BA5D9D1E3A6F1EE7556 /* Pods_ta_lib_swift_Tests.framework */,
+				579A46FCF4A337A6EBBB96150FD2FE10 /* ta_lib_swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3902F6EBA4FF836B8548A7A17C9164C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9CBBBD30DC94FCD3AB995EDCED2BF66 /* Pods-ta-lib-swift_Example */,
+				E2371B684AE0CE604FF507141395738C /* Pods-ta-lib-swift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB10B7A1CD54BD25F40C988BD5C33CB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50D1358D470D8B72AAA25DA1053AE431 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C274B94AD0CD2F59A803780F9AF2E3AD /* ta-lib-swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				50D1358D470D8B72AAA25DA1053AE431 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				36A43CC5EB49438A6A31A6C49A122ECF /* Products */,
+				3902F6EBA4FF836B8548A7A17C9164C7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		840566BCCD79FE4CADF962DCB8216659 /* TA_Func */ = {
+			isa = PBXGroup;
+			children = (
+				238908D09C6E1A8CD89009A122E0747D /* TA_Acos.swift */,
+				52A386134205D53BEB79E41D7470FD40 /* TA_Ad.swift */,
+				D6A52C4F7C16AA8EA3E2FEF86D08E841 /* TA_Add.swift */,
+				255B0345EB20ACC47552B34206EE5053 /* TA_AdOsc.swift */,
+				62D7EAA9A78C8260E495BD87CE97699E /* TA_Adx.swift */,
+				7C744CDB946DE3AC49ADF350A15E8A4A /* TA_Adxr.swift */,
+				5BCE61C82D1B538DDCFEF3286557B2DA /* TA_Apo.swift */,
+				8BD6378930747E8A32CE949C129E21B1 /* TA_Aroon.swift */,
+				F456DB9980D7CA09193CD034D095A8B7 /* TA_AroonnOsc.swift */,
+				3DBADDBAD49DEDC945CECC1310CC5F86 /* TA_Asin.swift */,
+				0B4177E50834237CC4116FCE2F0FBD50 /* TA_Atan.swift */,
+				BCC312D6E95F10F31074B516732B78EC /* TA_Atr.swift */,
+				B928C4234F2389900C9FAB9573282CF7 /* TA_AvgPrice.swift */,
+				6A4CDA257E4BB4B504044F7DC9D161D2 /* TA_BBands.swift */,
+				6F42C85F3E4BF042C21A8598FF6D495D /* TA_Bop.swift */,
+				17A80BC5CC674A1D187F7966257A1B14 /* TA_Cci.swift */,
+				09EB0711F25F37D75484755A01D5F9DF /* TA_Ceil.swift */,
+				B37078B47B74F6F439A0542D6786E870 /* TA_Cmo.swift */,
+				986CD1B680E76940D725AEB9D6D8229B /* TA_Correl.swift */,
+				7D9D77AA444A7B9E6A0E4B5678125C5C /* TA_Cos.swift */,
+				FDC1C7CDBA28B453F77B3F22C9CE59AE /* TA_Cosh.swift */,
+				7EBD5DE2089D46F765418981A550CC41 /* TA_Dema.swift */,
+				DCB23816EDC9C44AC2C767658087FA0E /* TA_Div.swift */,
+				EB3DE820417F0BE7F30D325DCF5D139A /* TA_DX.swift */,
+				8C5BA0C0CE2426424F0C17FF4BF4E95D /* TA_Ema.swift */,
+				79BD17F07DB2F8F0C30B4EE94DEB12D6 /* TA_Exp.swift */,
+				5C2566F1DDBF3F17A065002E7EDF578B /* TA_Floor.swift */,
+				E9C9AED4CDDE49893A0EC0C53980F4BE /* TA_HtDcPeriod.swift */,
+				78517567B7ACEEAD7F8D28CA7A4B978A /* TA_HtDcPhase.swift */,
+				869A8B71067E8619F62C081FCA666C4E /* TA_HtPhasor.swift */,
+				FA79AFE7FAD838F940BC0BC3BE0705B7 /* TA_HtSine.swift */,
+				79EDF53A5272450690166C35AA8F234F /* TA_HtTrendline.swift */,
+				0D3D64BFAE9FBB2229BBC48806C5AE48 /* TA_HtTrendMode.swift */,
+				2A686DCAD984EB3DA957FF03D28106AA /* TA_Kama.swift */,
+				EBD3B2B9DB0F32A8FB22EFB4523B1492 /* TA_LinearReg.swift */,
+				F576D3841E2092843741A8AD03491437 /* TA_LinearRegAngle.swift */,
+				14633541B5522D5FD40353EE7C4EF18A /* TA_LinearRegIntercept.swift */,
+				812755F8A0D25DA55EDB8ABA3AFA0303 /* TA_LinearRegSlope.swift */,
+				03414250798A0E700C2868D611611733 /* TA_Ln.swift */,
+				C699C7992383A14FE5FC08ED0C4A81E8 /* TA_Log10.swift */,
+				DAEFE19F2EDF104F381EF057C003ED52 /* TA_Macd.swift */,
+				3A3AF2D3DEA6B0D23FFF8430D40CF1AF /* TA_MacdFix.swift */,
+				1961E5951A497BFD46803461642F1FD5 /* TA_Mama.swift */,
+				27CDFE3AB6790CDBD3FFB9F0CE57ED58 /* TA_Max.swift */,
+				076FE205B495CDFF7DCE07284AA62049 /* TA_MaxIndex.swift */,
+				4ABD28AADC17C30D5E036807E38EA9AC /* TA_MedPrice.swift */,
+				812DBCC271667822E191CF4AEBEA1FB0 /* TA_MidPoint.swift */,
+				2D3D8521D5ED5E4BB05A9AEBDE61F733 /* TA_MidPrice.swift */,
+				9C6577241B0E86C83E77B25E57549B01 /* TA_Min.swift */,
+				C9B3A4B3B755A2D3E6037674FBEF6F92 /* TA_MinIndex.swift */,
+				8F628D983FA6443C3B25CC5498FD15DF /* TA_MinMax.swift */,
+				97B006E111971840AEED83E4F922A7C9 /* TA_MinMaxIndex.swift */,
+				AD25F788B5B4E59F6C3FE6A271C20D82 /* TA_MinusDI.swift */,
+				C8C3D36F5AD970D34D19F95C467A85ED /* TA_MinusDM.swift */,
+				E77E422C44F380E6887A4E83A992E105 /* TA_Mom.swift */,
+				2AC7E26727E96231DAD340AD711AF88E /* TA_MoneyFlowIndex.swift */,
+				2B63EFE1DAC866DA338B4FAF68917C8E /* TA_MovingAverage.swift */,
+				C66E6682661514728A52CE1206D78802 /* TA_Mult.swift */,
+				CDE6A12BF1402DBE0DFAF1785F76C117 /* TA_Natr.swift */,
+				ED8650BF7EAF3876035004193B741056 /* TA_Obv.swift */,
+				AE04D09F431CA2979225D056CB428E90 /* TA_PlusDI.swift */,
+				6B8F16562A777BAEDB8AEF771C1D2560 /* TA_PlusDM.swift */,
+				4DD32E5FC7D585C5622DB169B7F0B03E /* TA_Ppo.swift */,
+				43DFE220F4BD45F8E2744C05F678C1BD /* TA_RateOfChange.swift */,
+				3011AE5A0151E4AB486E137D01A055BE /* TA_RateOfChangePercentage.swift */,
+				4204DA28A135D45ED6A837A8791268EC /* TA_RateOfChangeRatio.swift */,
+				D3CB8946464FC73F091AE0487D8C0D28 /* TA_RateOfChangeRatio100.swift */,
+				F1856DC7BC493FB3DC10D3746DDF7594 /* TA_Rsi.swift */,
+				D31E221706494F05F30E51AFB0F9C845 /* TA_Sar.swift */,
+				4493040F6BA0E507D258A876AAEECC80 /* TA_SarExt.swift */,
+				730D8F6560DBF5FEBA984E677DA75262 /* TA_Sin.swift */,
+				2057E0D69D677DC712642A6325DB7A2B /* TA_Sinh.swift */,
+				B2E0380C9DDBF8064812A653412B89D1 /* TA_Sma.swift */,
+				510CD878698FD5DCBBDF073BB5E6ED36 /* TA_Sqrt.swift */,
+				43905B84177DFC4C1AC7A143AA430619 /* TA_StdDev.swift */,
+				F8A3A379A11AFAA2214B8EC31FAA0CF2 /* TA_Stoch.swift */,
+				5C637638325FB10A57BBF92C42F346B1 /* TA_StochF.swift */,
+				90FF06D10800ED9B5734FBEA4E7B7332 /* TA_StochRsi.swift */,
+				08C79E06CCBB63B3807558F33B50C1C7 /* TA_Sub.swift */,
+				8FB673086059AC534D8F2E4DF6C4D4DE /* TA_T3.swift */,
+				85B9EB3A6F32751341502086A03D344E /* TA_Tan.swift */,
+				E53A0B16AE6D49DDD64D45EEDA30CBEA /* TA_Tanh.swift */,
+				6E89DB9E57A44765F67831959A4BE1B7 /* TA_Tema.swift */,
+				C3048A5C854430D2493AF577993D0EA9 /* TA_Trima.swift */,
+				071807DD11F12BB14B80FEE1FFC5A869 /* TA_TrueRange.swift */,
+				D192FA0220AF55525461785D85A97463 /* TA_Tsf.swift */,
+				B5D193ABA6E85572692F30979665A8C3 /* TA_TypicalPrice.swift */,
+				CEF3323FA909F2CFC827DB4ECC9B230B /* TA_UltimateOsc.swift */,
+				AC3B42ED368D960DE935B6B6EA4102E5 /* TA_Variance.swift */,
+				8A7D360022C81510D5A6A7EB0B12CD0C /* TA_WeightedClosePrice.swift */,
+				905029357BA6DF79EA0FE85D4902460F /* TA_WillR.swift */,
+				8F26AC8297399BB3C7FB26EE7B73346C /* TA_Wma.swift */,
+			);
+			name = TA_Func;
+			path = "ta-lib-swift/Classes/TA_Func";
+			sourceTree = "<group>";
+		};
+		C274B94AD0CD2F59A803780F9AF2E3AD /* ta-lib-swift */ = {
+			isa = PBXGroup;
+			children = (
+				66274AF911995C0264DB993342D54ACB /* TA_ArrayUtils.swift */,
+				4E26D871A1C3765BAA48DD01F46CBA6D /* TA_Candle.swift */,
+				40D28524F73F8BBD4007CE5C3B566776 /* TA_Core.swift */,
+				C560EBEC4FA8EB46D07538891E3DBE63 /* TA_Enumerations.swift */,
+				FF17C1B45C87FA857C94EC88575A0F9B /* TA_Test.swift */,
+				840566BCCD79FE4CADF962DCB8216659 /* TA_Func */,
+				118187D0CE280DF6558AE059E0466048 /* TA_Func_TODO */,
+				1451E52651C3FEAB26B650AFE0AFFBF2 /* Support Files */,
+			);
+			name = "ta-lib-swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E2371B684AE0CE604FF507141395738C /* Pods-ta-lib-swift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF73A96D96B846D43CC58B2163C9317 /* Info.plist */,
+				A1BA7899004BD658EDEF13EFDFB91C1D /* Pods-ta-lib-swift_Tests.modulemap */,
+				FCE7B691F40D15AC8243917521A14911 /* Pods-ta-lib-swift_Tests-acknowledgements.markdown */,
+				EC4F4540FED303ABE908CDB418013A13 /* Pods-ta-lib-swift_Tests-acknowledgements.plist */,
+				CC5C254579534B6A1256F6E1121A16FE /* Pods-ta-lib-swift_Tests-dummy.m */,
+				CDB4755AB76945B23F4BEBC70FCF7585 /* Pods-ta-lib-swift_Tests-frameworks.sh */,
+				F8351B540FBD0D079442558275076C11 /* Pods-ta-lib-swift_Tests-resources.sh */,
+				6E880302580425729A81814D0989D1CE /* Pods-ta-lib-swift_Tests-umbrella.h */,
+				3E8BE810D712A47BEB0186B76D50299D /* Pods-ta-lib-swift_Tests.debug.xcconfig */,
+				3016E220AE687920A23EA1D96F744879 /* Pods-ta-lib-swift_Tests.release.xcconfig */,
+			);
+			name = "Pods-ta-lib-swift_Tests";
+			path = "Target Support Files/Pods-ta-lib-swift_Tests";
+			sourceTree = "<group>";
+		};
+		E9CBBBD30DC94FCD3AB995EDCED2BF66 /* Pods-ta-lib-swift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CC657BDB3195467FC885FA2C31908B14 /* Info.plist */,
+				8D406B103F9BE45A9F9201A7DEC02335 /* Pods-ta-lib-swift_Example.modulemap */,
+				E330D96891B1F9E1C2F20C2C756F89D5 /* Pods-ta-lib-swift_Example-acknowledgements.markdown */,
+				45F5EDA33F285B947F9BF68F5571C246 /* Pods-ta-lib-swift_Example-acknowledgements.plist */,
+				481C9592D1BFED34981ABD82DBED76D3 /* Pods-ta-lib-swift_Example-dummy.m */,
+				443922D69BA1703803318D4F2FA8486A /* Pods-ta-lib-swift_Example-frameworks.sh */,
+				72B0C6C9FFA8ECF1942CBE775332E1AD /* Pods-ta-lib-swift_Example-resources.sh */,
+				3C81BF50A9F769C85356CA9060AB2B5A /* Pods-ta-lib-swift_Example-umbrella.h */,
+				55F8AB608A4AB3421B62D01C5D24633E /* Pods-ta-lib-swift_Example.debug.xcconfig */,
+				0C04BF88ED6817B20423C326568A7847 /* Pods-ta-lib-swift_Example.release.xcconfig */,
+			);
+			name = "Pods-ta-lib-swift_Example";
+			path = "Target Support Files/Pods-ta-lib-swift_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33A04FF3655D87B9D8C610F8B2B021E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E726F4E84C7C19C13F0967503193EEA /* ta-lib-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719A9D56CD5C8E7068B65AADC77A2411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48810C45B99723EDC3391D2585E89A59 /* Pods-ta-lib-swift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD56F4EE02DA70C5D2EF5C225E656546 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF36F9580F3E71967F735F087DC2DF9 /* Pods-ta-lib-swift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BEB12DA728EBBBE4FA50E606BF93FD03 /* ta-lib-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FB5917F3D29EB6567F1E5CEC8335CC /* Build configuration list for PBXNativeTarget "ta-lib-swift" */;
+			buildPhases = (
+				D876A6D92FC0E9416345BD4670B90F9C /* Sources */,
+				5933747235838BA833CDB00E2E1D414B /* Frameworks */,
+				33A04FF3655D87B9D8C610F8B2B021E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ta-lib-swift";
+			productName = "ta-lib-swift";
+			productReference = 579A46FCF4A337A6EBBB96150FD2FE10 /* ta_lib_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED30E7C38ACB7DC882859A282CECFB8E /* Pods-ta-lib-swift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2CD63BD82BF1E01790E6ABA1E60AE9 /* Build configuration list for PBXNativeTarget "Pods-ta-lib-swift_Tests" */;
+			buildPhases = (
+				F23162F101C54AF4856F4F760C593F68 /* Sources */,
+				B87F756A6E1A14071F5DE279D1DD4987 /* Frameworks */,
+				719A9D56CD5C8E7068B65AADC77A2411 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ta-lib-swift_Tests";
+			productName = "Pods-ta-lib-swift_Tests";
+			productReference = 9E70B94E15447BA5D9D1E3A6F1EE7556 /* Pods_ta_lib_swift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE60C8E87BEC736428BF93BDEB5B9389 /* Pods-ta-lib-swift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7495EFED0A16B7CFD114B98E897ABECC /* Build configuration list for PBXNativeTarget "Pods-ta-lib-swift_Example" */;
+			buildPhases = (
+				10DFC63B1E3AAA5C753B4A8328EAA517 /* Sources */,
+				EE4F8654F78E2F681703C2EDC0955A21 /* Frameworks */,
+				FD56F4EE02DA70C5D2EF5C225E656546 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1705797BE00A76410357695ADC50013 /* PBXTargetDependency */,
+			);
+			name = "Pods-ta-lib-swift_Example";
+			productName = "Pods-ta-lib-swift_Example";
+			productReference = 31EE7E26AE2863D2C37E77D8D182F15B /* Pods_ta_lib_swift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 36A43CC5EB49438A6A31A6C49A122ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE60C8E87BEC736428BF93BDEB5B9389 /* Pods-ta-lib-swift_Example */,
+				ED30E7C38ACB7DC882859A282CECFB8E /* Pods-ta-lib-swift_Tests */,
+				BEB12DA728EBBBE4FA50E606BF93FD03 /* ta-lib-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10DFC63B1E3AAA5C753B4A8328EAA517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A66EFF09F91D6A6B21B459CAFE75BE /* Pods-ta-lib-swift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D876A6D92FC0E9416345BD4670B90F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB8B5B1F813F50F4A948C07ACA655C3 /* ta-lib-swift-dummy.m in Sources */,
+				BD1BF2B30D9E1F5F6988E1E05DFA3C3A /* TA_Acos.swift in Sources */,
+				4ED089DEDDE59828F8A6BBF46DBE0691 /* TA_Ad.swift in Sources */,
+				4FB73D79D8FFEBD305136B2DBEC908C7 /* TA_Add.swift in Sources */,
+				054EB772EC8817C6C246F78CCD2B22AF /* TA_AdOsc.swift in Sources */,
+				AF419AD7F49D91B53D438B51231E7DA8 /* TA_Adx.swift in Sources */,
+				73361F0B4A5ACEC88A1EB61484559B6F /* TA_Adxr.swift in Sources */,
+				A5D267AF02CF63B1EC553893C0991432 /* TA_Apo.swift in Sources */,
+				1E4780681F97B7F5BFC47E21CBA4CFFF /* TA_Aroon.swift in Sources */,
+				A113FE2D937BBE12F8D19B15EDFA514D /* TA_AroonnOsc.swift in Sources */,
+				B5413E999B663FCB6F40726E059FD5E1 /* TA_ArrayUtils.swift in Sources */,
+				7F16528279C4AF268DE90963241B84CB /* TA_Asin.swift in Sources */,
+				B0C01206D42A6F078AFB9AC40760A4D0 /* TA_Atan.swift in Sources */,
+				9DAC613C324785D178BCD98B85383D3A /* TA_Atr.swift in Sources */,
+				645F94848667A51ED88A9C74F188B599 /* TA_AvgPrice.swift in Sources */,
+				E0D202646913A969878BFA4DE27CF81E /* TA_BBands.swift in Sources */,
+				31FF1987D4A6CDC1AD20F3AAC21505E4 /* TA_Beta.swift in Sources */,
+				54659B4F10C834CA3EEF30C3E4D59271 /* TA_Bop.swift in Sources */,
+				32BB3A41CE5C2E20A5FA034133E238D1 /* TA_Candle.swift in Sources */,
+				096B298C1B4BF9DC388F234EDA670F9B /* TA_CandleDoji.swift in Sources */,
+				6DB5591B2922755C030A71AA64C17BAB /* TA_Cci.swift in Sources */,
+				1B141C30F9FAC26D8619317243EFBB9F /* TA_Ceil.swift in Sources */,
+				1A556FE1B88E42313CB7A86E4DF1F386 /* TA_Cmo.swift in Sources */,
+				398138195BC48E37D96C7F5CDD671FEA /* TA_Core.swift in Sources */,
+				13723DA232CBE5E1AD013157A75E4584 /* TA_Correl.swift in Sources */,
+				F26379BC9A2475D2993CB30CA3CAF9F3 /* TA_Cos.swift in Sources */,
+				C089460C26F7A3CAB3AAA2B415DE1B75 /* TA_Cosh.swift in Sources */,
+				37D5BD59FEE3B76854E3108E907E87EB /* TA_Dema.swift in Sources */,
+				2DB8E178A976DA3392F2C6EA03B2D58B /* TA_Div.swift in Sources */,
+				8A681F34CF6FEE3364DF11745E65E332 /* TA_DX.swift in Sources */,
+				C2DBB72BFFA334C0E3789841CA469431 /* TA_Ema.swift in Sources */,
+				2EE074B761747825A6067E3F35EE06EA /* TA_Enumerations.swift in Sources */,
+				14E92FEDC37D5863AE8A971978263A70 /* TA_Exp.swift in Sources */,
+				2709E29721881BF3C69D27B76DFD2C24 /* TA_Floor.swift in Sources */,
+				502A024FDDE90B190F776B3748B449B9 /* TA_HtDcPeriod.swift in Sources */,
+				9EC98663CAFC06E0E8FD3CF58F5260BA /* TA_HtDcPhase.swift in Sources */,
+				81ECA16893AFC2AD416BB9B0138187B8 /* TA_HtPhasor.swift in Sources */,
+				32CF04A3FEA928BDF815388CA105DBD1 /* TA_HtSine.swift in Sources */,
+				C506E81F1341A1311D3B7C2CD5A99747 /* TA_HtTrendline.swift in Sources */,
+				D3C6FE3632B9B504F0694956D5D33CD0 /* TA_HtTrendMode.swift in Sources */,
+				63EABEBEB90439E492CEC3D3744A50AC /* TA_Kama.swift in Sources */,
+				7002A7028F8ACF437F771B70E0D518DD /* TA_LinearReg.swift in Sources */,
+				B4C4CC53D386D81DFA51D623124A01A7 /* TA_LinearRegAngle.swift in Sources */,
+				D3061A8A554CCC80C2F49D8026B0DD78 /* TA_LinearRegIntercept.swift in Sources */,
+				5886CD0770BA78D1FB9ACDF2A8D928FA /* TA_LinearRegSlope.swift in Sources */,
+				EA4A214E4F430A1FE13DEFCD77C3A6CF /* TA_Ln.swift in Sources */,
+				172FD5487C71F815A774770C28E19905 /* TA_Log10.swift in Sources */,
+				186A7D294B8A8A7EC91E48272C8CDD5E /* TA_Macd.swift in Sources */,
+				EAF5D4852EB13518A97587A089BA5AF7 /* TA_MacdExt.swift in Sources */,
+				E347225FC8373C0AD7005511D3146736 /* TA_MacdFix.swift in Sources */,
+				5D17099ABE7323B37BED0648D7583843 /* TA_Mama.swift in Sources */,
+				113A4C6AB1EFA6509BADC6F6A9CE7295 /* TA_Max.swift in Sources */,
+				3623C9A7CCC5D32AB17D923D961637FE /* TA_MaxIndex.swift in Sources */,
+				7E24BCEBEF9B1A7C31D79378597056CD /* TA_MedPrice.swift in Sources */,
+				3C9214227E9FCF842FA9F3A6468960D2 /* TA_MidPoint.swift in Sources */,
+				9A27BBDFDB1C3A0FC03D64420ABA27CE /* TA_MidPrice.swift in Sources */,
+				FE97FE15E4300F9F6AE5A363B117547B /* TA_Min.swift in Sources */,
+				9E15CA38C2CDB79A0E26C62D429BE6C6 /* TA_MinIndex.swift in Sources */,
+				A4B2D52E99851449006A98DB28A2F727 /* TA_MinMax.swift in Sources */,
+				7E075E75FF289858608027F23F4B200F /* TA_MinMaxIndex.swift in Sources */,
+				84B75B2C8F56F73D6494F01530DA9218 /* TA_MinusDI.swift in Sources */,
+				2B7B4F3FB527A506F2B2D787443A21EC /* TA_MinusDM.swift in Sources */,
+				10B504C15AEADBFBACA18A1B6E3DE385 /* TA_Mom.swift in Sources */,
+				D1BF41018DF78BBC25B5C791F05529CD /* TA_MoneyFlowIndex.swift in Sources */,
+				92F31763F7DD2EC7E485B1F8CF827047 /* TA_MovingAverage.swift in Sources */,
+				C72F2B77642CA56E93F2A66B30EC308F /* TA_MovingAverageVariablePeriod.swift in Sources */,
+				42F23A911C9797E43A499D615EA08BD4 /* TA_Mult.swift in Sources */,
+				A794C2FEDE086AE3C4A0A06CB1174D59 /* TA_Natr.swift in Sources */,
+				845D226B7E29E197DE500D494DAA7426 /* TA_Obv.swift in Sources */,
+				690809D73AD8C25EA265F2EFD0C2F300 /* TA_PlusDI.swift in Sources */,
+				2BEE70BF27224FB7A06EBBD1BB5404CE /* TA_PlusDM.swift in Sources */,
+				7E2EB65911A7BA2B9C7C5346234EAFA2 /* TA_Ppo.swift in Sources */,
+				977A1D76FF0492639CF6AFA98E0789BE /* TA_RateOfChange.swift in Sources */,
+				21988EE951D1B8D42A8CB316FA8E3115 /* TA_RateOfChangePercentage.swift in Sources */,
+				237FA2EDF4C42021D63481C2390ED1A0 /* TA_RateOfChangeRatio.swift in Sources */,
+				46422D0C946E3FCD91B2DBF618FEC94A /* TA_RateOfChangeRatio100.swift in Sources */,
+				050EB4767305FE84A3932E03E87C8B73 /* TA_Rsi.swift in Sources */,
+				128DF60A0AA6FDFDE5DB0828EC1D918C /* TA_Sar.swift in Sources */,
+				DC3840D8873F23F116A1A277B58E4273 /* TA_SarExt.swift in Sources */,
+				91C195594F6CC626DC351B2F344737AF /* TA_Sin.swift in Sources */,
+				E46B28651476DE60C7DC46EDD041A037 /* TA_Sinh.swift in Sources */,
+				C6D3C37063EEF237E1790651A85CC299 /* TA_Sma.swift in Sources */,
+				2D8899DCA202EE32FA1D9FE2DFB023FA /* TA_Sqrt.swift in Sources */,
+				27E30A4558DE5032CAAE7FD7B76A489A /* TA_StdDev.swift in Sources */,
+				4B574725912731B443E9C4F0038FD508 /* TA_Stoch.swift in Sources */,
+				3773C078CF54751F38EFE5887BA65E3A /* TA_StochF.swift in Sources */,
+				A44A71F3B87D93AA79CED91C870F7773 /* TA_StochRsi.swift in Sources */,
+				568A69F793461403921BA13DC8B8B6E3 /* TA_Sub.swift in Sources */,
+				B042CBEA6E2626AC4567978DAEE1A243 /* TA_T3.swift in Sources */,
+				11604787DA63892CB8365E87772B9582 /* TA_Tan.swift in Sources */,
+				4D1E2F80177AAE971D179331E72CFDC8 /* TA_Tanh.swift in Sources */,
+				8181E4E3FF1A3A2B84D5A3065FE29693 /* TA_Tema.swift in Sources */,
+				E0E39C6185A4BE93388AA0CF9D1EB191 /* TA_Test.swift in Sources */,
+				EA950E314BA4B2798B6481F67A65DB43 /* TA_Trima.swift in Sources */,
+				12FA5554FB1AA32B722DC71D47BFE93E /* TA_TrueRange.swift in Sources */,
+				98EB072014C5B105105AC1D77D71A8B1 /* TA_Tsf.swift in Sources */,
+				32C3704714BDF39A6E279B3D2B07F33A /* TA_TypicalPrice.swift in Sources */,
+				58DDA5D8CE96079C23BDB2AEBD5D9D6A /* TA_UltimateOsc.swift in Sources */,
+				9FFBF0E869495CA70C450D096F50FE0B /* TA_Variance.swift in Sources */,
+				C4569CD5A74E2BB81E17915C0DA832A4 /* TA_WeightedClosePrice.swift in Sources */,
+				0628D5B673C806CE3D5E8D31D9A9C6A9 /* TA_WillR.swift in Sources */,
+				833B882FA33E1E62B1DEFDB0B8868FEB /* TA_Wma.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23162F101C54AF4856F4F760C593F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E76CD1F871B56545013C7F49F2E5E /* Pods-ta-lib-swift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1705797BE00A76410357695ADC50013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ta-lib-swift";
+			target = BEB12DA728EBBBE4FA50E606BF93FD03 /* ta-lib-swift */;
+			targetProxy = F24384A2BE006FEEDBF2D1135DBE93AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		180D75D0977BC7953E2E6EF5F94330A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3016E220AE687920A23EA1D96F744879 /* Pods-ta-lib-swift_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ta-lib-swift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ta-lib-swift_Tests/Pods-ta-lib-swift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ta_lib_swift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C0273E398732A95B7A6A645C93B2768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8BE810D712A47BEB0186B76D50299D /* Pods-ta-lib-swift_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ta-lib-swift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ta-lib-swift_Tests/Pods-ta-lib-swift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ta_lib_swift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		764739359CC695295B6923F433E4EE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E518774E64EB67B5C6AD5AD76C63DAC /* ta-lib-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ta-lib-swift/ta-lib-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ta-lib-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ta-lib-swift/ta-lib-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ta_lib_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A53B169C8F19F49A283235850EFC92A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F8AB608A4AB3421B62D01C5D24633E /* Pods-ta-lib-swift_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ta-lib-swift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ta-lib-swift_Example/Pods-ta-lib-swift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ta_lib_swift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A90EF4B2D56A120753AC80273D08F8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C04BF88ED6817B20423C326568A7847 /* Pods-ta-lib-swift_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ta-lib-swift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ta-lib-swift_Example/Pods-ta-lib-swift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ta_lib_swift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1C4D4F9CEBCFFC2FAF53A6734DCDC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E518774E64EB67B5C6AD5AD76C63DAC /* ta-lib-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ta-lib-swift/ta-lib-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ta-lib-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ta-lib-swift/ta-lib-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ta_lib_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FB5917F3D29EB6567F1E5CEC8335CC /* Build configuration list for PBXNativeTarget "ta-lib-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C4D4F9CEBCFFC2FAF53A6734DCDC5A /* Debug */,
+				764739359CC695295B6923F433E4EE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2CD63BD82BF1E01790E6ABA1E60AE9 /* Build configuration list for PBXNativeTarget "Pods-ta-lib-swift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0273E398732A95B7A6A645C93B2768 /* Debug */,
+				180D75D0977BC7953E2E6EF5F94330A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7495EFED0A16B7CFD114B98E897ABECC /* Build configuration list for PBXNativeTarget "Pods-ta-lib-swift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53B169C8F19F49A283235850EFC92A3 /* Debug */,
+				A90EF4B2D56A120753AC80273D08F8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

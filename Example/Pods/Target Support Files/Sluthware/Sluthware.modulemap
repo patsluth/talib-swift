@@ -1,0 +1,6 @@
+framework module Sluthware {
+  umbrella header "Sluthware-umbrella.h"
+
+  export *
+  module * { export * }
+}
